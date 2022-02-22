@@ -1,0 +1,70 @@
+body {
+    background-color: whitesmoke;
+}
+nav {
+    font-size: large;
+    font-family: century gothic; 
+    color: black;
+    display: flex; 
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+.row {
+    display: flex;
+    background-color: white;
+}
+  
+.column1 {
+    flex: 50%;
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+.column1 h1 {
+    font-family: century gothic;
+    font-size: xx-large;
+}
+.column1 p {
+    font-family: century gothic;
+    font-size: large;
+}
+.column2 {
+    flex: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.projects h1 {
+    font-family: century gothic;
+    font-size: xx-large;
+    text-align: center;
+    align-items: center;
+}
+.projects p {
+    font-family: century gothic;
+    font-size: large;
+    text-align: center;
+    align-items: center;
+}
+footer {
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+footer h1 {
+    font-family: century gothic;
+    font-size: xx-large;
+    text-align: center;
+    align-items: center;
+}
+footer p {
+    font-family: century gothic;
+    font-size: large;
+    text-align: center;
+    align-items: center;
+}
