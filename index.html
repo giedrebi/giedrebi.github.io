@@ -1,44 +1,368 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="This is my (Giedre Bielske) portfolio, where you can find some information about me, my projects and contact information">
-    <meta name="robots" content="This is my (Giedre Bielske) portfolio, where you can find some information about me, my projects and contact information"">
-    <meta name="title" content="Giedre Bielske developer portfolio">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="This is my (Giedre Bielske) portfolio, where you can find some information about me, my projects and contact information" />
+    <meta name="robots" content="This is my (Giedre Bielske) portfolio, where
+    you can find some information about me, my projects and contact
+    information"">
+    <meta name=" title" content="Giedre Bielske developer portfolio" />
     <title>github.giedrebi portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="slides.css" />
 </head>
+
 <body>
     <nav>
-        <a href="#about" style="color: black;">About me</a>
-        <a href="#projects" style="color: black;">My projects</a>
-        <a href="#contact" style="color: black;">Contact</a>
+        <a href="#about" style="color: black">About me</a>
+        <a href="#projects" style="color: black">My projects</a>
+        <a href="#contact" style="color: black">Contact</a>
     </nav>
-    <br>
-    <br>
+    <br />
+    <br />
     <header id="about">
         <div class="row">
-            <div class="column1"> 
+            <div class="column1">
                 <h1>Hello, I'm GIEDRE!</h1>
-                <p>I'm a student at Baltic Institute of Technology (BIT). At this moment I learned how to code with HTML and CSS.</p>
-                <p>In studies at BIT as well are included: GIT, JavaScript, React, PHP+SQL.</p>
+                <p>Full stack web developer</p>
+                <p>
+                    Recently I graduated full stack studies at the Baltic Institute of
+                    Technology (BIT). Below you will find some of my projects.
+                </p>
             </div>
-            <div class="column2"> 
-                <img src="images/Giedre Bielske.jpg" alt="Giedre Bielske" style="width: 600px; height: 600px;">
+            <div class="column2">
+                <img src="images/Giedre Bielske.jpg" alt="Giedre Bielske" style="width: 500px; height: 500px" />
             </div>
-          </div>
+        </div>
     </header>
+
     <section id="projects" class="projects">
         <h1>My projects</h1>
-        <p>Below you will find some of my projects</p>
-        <p>For more of my BIT projects, please visit <a href="https://giedrebi.github.io/BIT_PROJECTS/" style="color: black;">my GitHub</a></p>
+
+        <section>
+            <h2>FoodSpot</h2>
+            <p>Content management system</p>
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 5</div>
+                    <img src="/images/FoodSpot/home.png" style="width: 100%" />
+                    <div class="text">Home page for visitor</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 5</div>
+                    <img src="/images/FoodSpot/adminlogin.png" style="width: 100%" />
+                    <div class="text">Admin login page</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 5</div>
+                    <img src="/images/FoodSpot/admin.png" style="width: 100%" />
+                    <div class="text">Admin content management page</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 5</div>
+                    <img src="/images/FoodSpot/addpage.png" style="width: 100%" />
+                    <div class="text">
+                        Add page with function to add new page on website
+                    </div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 5</div>
+                    <img src="/images/FoodSpot/editpage.png" style="width: 100%" />
+                    <div class="text">Edit page</div>
+                </div>
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br />
+            <!-- The dots/circles -->
+            <div style="text-align: center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+            <div class="git-container">
+                <a class="git" href="https://github.com/giedrebi/BIT_SPRINT_CMS_8" target="_blank">Project's GITHUB
+                    link</a>
+            </div>
+        </section>
+
+
+        <section class="white-section">
+            <h2>Travel CRUD</h2>
+            <p>Travel information system</p>
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides2 fade">
+                    <div class="numbertext">1 / 6</div>
+                    <img src="/images/TravelCrud/register.png" style="width: 100%" />
+                    <div class="text">Registration form, with submit function all data will be saved in database</div>
+                </div>
+                <div class="mySlides2 fade">
+                    <div class="numbertext">2 / 6</div>
+                    <img src="/images/TravelCrud/login.png" style="width: 100%" />
+                    <div class="text">Login form</div>
+                </div>
+                <div class="mySlides2 fade">
+                    <div class="numbertext">3 / 6</div>
+                    <img src="/images/TravelCrud/countries.png" style="width: 100%" />
+                    <div class="text">Countries list page where you can add, update and delete country (all changes will
+                        be saved to databse)</div>
+                </div>
+                <div class="mySlides2 fade">
+                    <div class="numbertext">4 / 6</div>
+                    <img src="/images/TravelCrud/townslist.png" style="width: 100%" />
+                    <div class="text">Towns list page where you can add, update and delete town, as well you can assign
+                        country (all changes will be saved to databse)</div>
+                </div>
+                <div class="mySlides2 fade">
+                    <div class="numbertext">5 / 6</div>
+                    <img src="/images/TravelCrud/addtown.png" style="width: 100%" />
+                    <div class="text">Add form</div>
+                </div>
+                <div class="mySlides2 fade">
+                    <div class="numbertext">6 / 6</div>
+                    <img src="/images/TravelCrud/update.png" style="width: 100%" />
+                    <div class="text">Update form</div>
+                </div>
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides2(1)">&#10095;</a>
+            </div>
+            <br />
+            <!-- The dots/circles -->
+            <div style="text-align: center">
+                <span class="dot2" onclick="currentSlide2(1)"></span>
+                <span class="dot2" onclick="currentSlide2(2)"></span>
+                <span class="dot2" onclick="currentSlide2(3)"></span>
+                <span class="dot2" onclick="currentSlide2(4)"></span>
+                <span class="dot2" onclick="currentSlide2(5)"></span>
+                <span class="dot2" onclick="currentSlide2(6)"></span>
+            </div>
+            <div class="git-container">
+                <a class="git" href="https://github.com/giedrebi/bit-sprint-9-travel-crud-frontend"
+                    target="_blank">Project's frontend side GITHUB link</a> <br />
+                <a class="git" href="https://github.com/giedrebi/BIT_SPRINT_9_TRAVEL_CRUD_backend"
+                    target="_blank">Project's backend side GITHUB link</a>
+            </div><br />
+        </section>
+
+
+        <section>
+            <h2>Project's Management System</h2>
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides3 fade">
+                    <div class="numbertext">1 / 4</div>
+                    <img src="/images/PMS/projects.png" style="width: 100%" />
+                    <div class="text">Projects page where you can add, update and delete project</div>
+                </div>
+                <div class="mySlides3 fade">
+                    <div class="numbertext">2 / 4</div>
+                    <img src="/images/PMS/employees.png" style="width: 100%" />
+                    <div class="text">Empolyees page where you can add, update and delete empolyee</div>
+                </div>
+                <div class="mySlides3 fade">
+                    <div class="numbertext">3 / 4</div>
+                    <img src="/images/PMS/add.png" style="width: 100%" />
+                    <div class="text">Add employee form where you can assign existing project</div>
+                </div>
+                <div class="mySlides3 fade">
+                    <div class="numbertext">4 / 4</div>
+                    <img src="/images/PMS/update.png" style="width: 100%" />
+                    <div class="text">
+                        Edit employee form
+                    </div>
+                </div>
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides3(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides3(1)">&#10095;</a>
+            </div>
+            <br />
+            <!-- The dots/circles -->
+            <div style="text-align: center">
+                <span class="dot3" onclick="currentSlide3(1)"></span>
+                <span class="dot3" onclick="currentSlide3(2)"></span>
+                <span class="dot3" onclick="currentSlide3(3)"></span>
+                <span class="dot3" onclick="currentSlide3(4)"></span>
+            </div>
+            <div class="git-container">
+                <a class="git" href="https://github.com/giedrebi/BIT_SPRINT_SQL_7" target="_blank">Project's GITHUB
+                    link</a>
+            </div>
+        </section>
+
+
+        <section class="white-section">
+            <h2>File System Browser</h2>
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides4 fade">
+                    <div class="numbertext">1 / 2</div>
+                    <img src="/images/FileSystemBrowser/systembrowser.png" style="width: 100%" />
+                    <div class="text">Here you can add, delete or download files, create folder and navigate between
+                        them</div>
+                </div>
+
+                <div class="mySlides4 fade">
+                    <div class="numbertext">2 / 2</div>
+                    <img src="/images/FileSystemBrowser/login.png" style="width: 100%" />
+                    <div class="text">You can enter this system just with admin login</div>
+                </div>
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides4(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides4(1)">&#10095;</a>
+            </div>
+            <br />
+            <!-- The dots/circles -->
+            <div style="text-align: center">
+                <span class="dot4" onclick="currentSlide4(1)"></span>
+                <span class="dot4" onclick="currentSlide4(2)"></span>
+            </div>
+            <div class="git-container">
+                <a class="git" href="https://github.com/giedrebi/BIT_SPRINT_PHP_6" target="_blank">Project's GITHUB
+                    link</a>
+            </div>
+        </section>
+
+
+        <section>
+            <h2>Shopping List App</h2>
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides5 fade">
+                    <div class="numbertext">1 / 5</div>
+                    <img src="/images/ShoppingList/home.png" style="width: 100%" />
+                    <div class="text">Home page</div>
+                </div>
+                <div class="mySlides5 fade">
+                    <div class="numbertext">2 / 5</div>
+                    <img src="/images/ShoppingList/list.png" style="width: 100%" />
+                    <div class="text">Shopping list page where you can add update and delete list items</div>
+                </div>
+                <div class="mySlides5 fade">
+                    <div class="numbertext">3 / 5</div>
+                    <img src="/images/ShoppingList/update.png" style="width: 100%" />
+                    <div class="text">Chosen item to update uppears in an input</div>
+                </div>
+                <div class="mySlides5 fade">
+                    <div class="numbertext">4 / 5</div>
+                    <img src="/images/ShoppingList/error.png" style="width: 100%" />
+                    <div class="text">
+                        Error page
+                    </div>
+                </div>
+                <div class="mySlides5 fade">
+                    <div class="numbertext">5 / 5</div>
+                    <img src="/images/ShoppingList/contact.png" style="width: 100%" />
+                    <div class="text">Contact page</div>
+                </div>
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides5(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides5(1)">&#10095;</a>
+            </div>
+            <br />
+            <!-- The dots/circles -->
+            <div style="text-align: center">
+                <span class="dot5" onclick="currentSlide5(1)"></span>
+                <span class="dot5" onclick="currentSlide5(2)"></span>
+                <span class="dot5" onclick="currentSlide5(3)"></span>
+                <span class="dot5" onclick="currentSlide5(4)"></span>
+                <span class="dot5" onclick="currentSlide5(5)"></span>
+            </div>
+            <div class="git-container">
+                <a class="git" href="https://github.com/giedrebi/BIT_SPRINT_REACT_5" target="_blank">Project's GITHUB
+                    link</a>
+            </div>
+        </section>
+
+
+        <section class="white-section">
+            <h2>Mojo Rent</h2>
+            <p>Real estate information website</p>
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides6 fade">
+                    <div class="numbertext">1 / 4</div>
+                    <img src="/images/MojoRent/home.png" style="width: 100%" />
+                    <div class="text">Home page</div>
+                </div>
+                <div class="mySlides6 fade">
+                    <div class="numbertext">2 / 4</div>
+                    <img src="/images/MojoRent/home2.png" style="width: 100%" />
+                    <div class="text">Home page's bottom</div>
+                </div>
+                <div class="mySlides6 fade">
+                    <div class="numbertext">3 / 4</div>
+                    <img src="/images/MojoRent/list.png" style="width: 100%" />
+                    <div class="text">Real estate list page</div>
+                </div>
+                <div class="mySlides6 fade">
+                    <div class="numbertext">4 / 4</div>
+                    <img src="/images/MojoRent/contact.png" style="width: 100%" />
+                    <div class="text">
+                        Contact page
+                    </div>
+                </div>
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides6(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides6(1)">&#10095;</a>
+            </div>
+            <br />
+            <!-- The dots/circles -->
+            <div style="text-align: center">
+                <span class="dot6" onclick="currentSlide6(1)"></span>
+                <span class="dot6" onclick="currentSlide6(2)"></span>
+                <span class="dot6" onclick="currentSlide6(3)"></span>
+                <span class="dot6" onclick="currentSlide6(4)"></span>
+            </div>
+            <div class="git-container">
+                <a class="git" href="https://github.com/giedrebi/BIT_SPRINT_3" target="_blank">Project's GITHUB link</a>
+            </div>
+        </section>
+
+        <p>
+            You can find more projects on
+            <a href="https://github.com/giedrebi" style="color: black" target="_blank">my GitHub</a>
+        </p>
+
     </section>
+
     <footer id="contact">
-        <h1>Contact</h1>
-        <p>giedrebielske@gmail.com</p>
-        <p><a href="https://github.com/giedrebi" style="color: black;" target="_blank">github.com/giedrebi</a></p>
+        <div class="footer1">
+            <a href="#about" style="color: black">About me</a><br><br>
+            <a href="#projects" style="color: black">My projects</a>
+        </div>
+        <div class="footer2">
+            <div class="icons">
+                <a href="https://www.linkedin.com/in/giedr%C4%97-bielsk%C4%97-1a8996107/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+            <p>giedrebielske@gmail.com</p>
+            <p>© <span id="year"></span> Giedre Bielske</p>
+        </div>
     </footer>
+    <script src="scripts.js"></script>
+    <script>
+        const d = new Date();
+        let year = d.getFullYear();
+        document.getElementById("year").innerHTML = year;
+        </script>
+    <script src="https://kit.fontawesome.com/d9c5ee75e5.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
