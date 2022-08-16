@@ -129,3 +129,16 @@
     opacity: 1
   }
 }
+
+@media screen 
+  and (max-device-width: 560px) {
+    .dot,
+    .dot2,
+    .dot3,
+    .dot4,
+    .dot5,
+    .dot6 {
+      margin: 50px 4px 30px 0px;
+
+    }
+  }

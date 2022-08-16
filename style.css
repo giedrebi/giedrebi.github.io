@@ -108,7 +108,7 @@ i:hover {
 
 
 @media screen 
-  and (max-device-width: 480px) {
+  and (max-device-width: 560px) {
     .row {
         flex-direction: column;
     }
