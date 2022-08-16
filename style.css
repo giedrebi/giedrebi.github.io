@@ -47,7 +47,8 @@ nav {
     padding-bottom: 1%;
 }
 .column2 img {
-    width: 100%;
+    width: 80%;
+    border-radius: 1%;
 }
 
 /* PROJECT TITLE AND DESCRIPTION */
