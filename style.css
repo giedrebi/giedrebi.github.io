@@ -118,4 +118,15 @@ i:hover {
     .column2 {
         flex: 100%;
     }
+    footer {
+        flex-direction: column;
+    }
+    .footer1 {
+        margin-top: 10px;
+        width: 100%;
+    }
+    .footer2 {
+        margin-top: 20px;
+        width: 100%;
+    }
   }
