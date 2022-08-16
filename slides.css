@@ -105,12 +105,13 @@
 
 .git {
   text-decoration: underline;
-  color: #717171;
-  font-size: smaller;
+  color: black;
+  font-size: small;
 }
 
 .git:hover {
   color: black;
+  font-size: smaller;
 }
 
 /* Fading animation */
