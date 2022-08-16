@@ -20,6 +20,7 @@ nav {
 /* ABOUT ME */
 .row {
     display: flex;
+    flex-direction: row;
     background-color: white;
 }
 .column1 {
@@ -44,6 +45,9 @@ nav {
     align-items: center;
     padding-top: 1%;
     padding-bottom: 1%;
+}
+.column2 img {
+    width: 100%;
 }
 
 /* PROJECT TITLE AND DESCRIPTION */
@@ -76,7 +80,6 @@ footer {
 }
 footer p {
     font-family: century gothic;
-    font-size: large;
     text-align: center;
     align-items: center;
 }
@@ -101,3 +104,17 @@ i {
 i:hover {
     font-size: 1.7rem;
 }
+
+
+@media screen 
+  and (max-device-width: 480px) {
+    .row {
+        flex-direction: column;
+    }
+    .column1 {
+        flex: 100%;
+    }
+    .column2 {
+        flex: 100%;
+    }
+  }
