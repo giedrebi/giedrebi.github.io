@@ -56,7 +56,7 @@
 }
 
 /* Caption text */
-.text {
+.caption {
   font-size: 15px;
   padding-top: 10px;
   position: absolute;
@@ -104,14 +104,16 @@
 }
 
 .git {
-  text-decoration: underline;
+  text-decoration: none;
   color: black;
   font-size: small;
+  transition: 0.4s !important;
 }
 
 .git:hover {
   color: black;
   font-size: smaller;
+  transition: 0.4s !important;
 }
 
 /* Fading animation */
@@ -130,7 +132,7 @@
   }
 }
 
-@media screen 
+@media screen
   and (max-device-width: 560px) {
     .dot,
     .dot2,
