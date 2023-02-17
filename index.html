@@ -44,9 +44,9 @@
 
 <body>
     <nav id="top">
-        <a class="navigation" href="#about">About me</a>
-        <a class="navigation" href="#projects">My projects</a>
-        <a class="navigation" href="#contact">Contact</a>
+        <a class="navigation about-btn" href="#top">About me</a>
+        <a class="navigation projects-btn" href="#projects">My projects</a>
+        <a class="navigation contact-btn" href="#contact">Contact</a>
         <div class="night-toggle" onClick="switchMode()">
             <div id="moon" class="moon"></div>
         </div>
@@ -75,8 +75,6 @@
         </a>
     </div>
     <section id="projects" class="projects">
-
-
         <section>
             <h1>My projects</h1>
             <h2>FoodSpot</h2>
@@ -129,8 +127,6 @@
                     link</a>
             </div>
         </section>
-
-
         <section class="white-section section-color">
             <h2>Travel CRUD</h2>
             <p>Travel information system</p>
@@ -193,8 +189,6 @@
                     target="_blank">Project's backend side GITHUB link</a>
             </div><br />
         </section>
-
-
         <section>
             <h2>Project's Management System</h2>
             <!-- Slideshow container -->
@@ -239,8 +233,7 @@
                     link</a>
             </div>
         </section>
-
-        <div>
+        <div id="loadMore" style="display: none">
             <section class="white-section section-color">
                 <h2>File System Browser</h2>
                 <!-- Slideshow container -->
@@ -250,11 +243,10 @@
                         <div class="numbertext">1 / 2</div>
                         <img src="/images/FileSystemBrowser/systembrowser.png" style="width: 100%"
                             alt="File System Browser" />
-                        <div class="caption">Here you can add, delete or download files, create folder and navigate
-                            between
-                            them</div>
+                        <div class="caption">
+                            Here you can add, delete or download files, create folder and navigate between them
+                        </div>
                     </div>
-
                     <div class="mySlides4 fade">
                         <div class="numbertext">2 / 2</div>
                         <img src="/images/FileSystemBrowser/login.png" style="width: 100%" alt="File System Browser" />
@@ -275,8 +267,6 @@
                         link</a>
                 </div>
             </section>
-
-
             <section>
                 <h2>Shopping List App</h2>
                 <!-- Slideshow container -->
@@ -328,8 +318,6 @@
                         link</a>
                 </div>
             </section>
-
-
             <section class="white-section section-color">
                 <h2>Mojo Rent</h2>
                 <p>Real estate information website</p>
@@ -379,18 +367,19 @@
                         link</a>
                 </div>
             </section>
-
             <p>
                 You can find more projects on
                 <a href="https://github.com/giedrebi" style="color: black" target="_blank">my GitHub</a>
             </p>
-
+        </div>
     </section>
+    <div style="display: flex; justify-content: center;">
+        <div id="load-more-button" href="#loadMore">Load More</div>
     </div>
     <footer class="section-color" id="contact">
         <div class=" footer1">
-            <a href="#about" class="navigation">About me</a><br><br>
-            <a href="#projects" class="navigation">My projects</a>
+            <a href="#top" class="navigation about-btn">About me</a><br><br>
+            <a href="#projects" class="navigation projects-btn">My projects</a>
         </div>
         <div class="footer2">
             <div class="icons">
